@@ -14,9 +14,9 @@ int main()
     while (true)
     {
         system("cls");
-        cout << "\n\t\t*************";
+        cout << "\n\t\t***************";
         cout << "\n\t\t  " << hr << " : " << min << " : " << sec << endl;
-        cout << "\t\t*************";
+        cout << "\t\t***************";
         sec++;
         if (sec >= 60)
         {
