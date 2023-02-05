@@ -10,7 +10,7 @@ int main()
     // printf("The Number is %d\n", number);
     // Keep running the loop until the number
     int nguesses = 1;
-    
+    system("cls");
     do
     {
         printf("Guess the number between 1 to 100\n");
@@ -30,6 +30,7 @@ int main()
     printf("EXIT GAME press 2\n");
     scanf("%d",&newGame);
     if (newGame == 1){
+        system("cls");
         goto start;
     }
     else {
